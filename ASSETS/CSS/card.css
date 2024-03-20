@@ -1,0 +1,44 @@
+:root{
+    --red: #fa3a3a;
+    --primary: #f171d5;
+    --secondary: #836af0;
+    --ligth: #bc34f1;
+    --other: #61f079; 
+    --bd-color: #e1f71a;  
+
+}
+html::-webkit-scrollbar{ /* controla a largura da barra*/
+    width: 15px;
+}
+html::-webkit-scrollbar-thumb{ /*controla a barra de rolagem*/
+    background-color:  #6349d6;
+    border-radius: 10px;
+}
+html::-webkit-scrollbar-track{  /*controla a cor de fundo*/
+    /*background-color: transparent;*/
+    background-color: #da52da;
+}
+.bg-principal{
+    height: 2000px;
+    background-color:#c03d2f;
+}
+h3{
+    font-size: 4rem; 
+}
+p{
+    text-align: justify;
+    font-size: 1.5rem;
+} 
+.i-span{
+    font-size: 8rem;
+}
+footer{
+    height: 500px;
+}
+li{
+    font-size: 1.5rem;
+    margin-bottom: 3px;
+}
+li:hover{
+    zoom: 1.2;
+}
